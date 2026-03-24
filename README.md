@@ -1,46 +1,46 @@
 # UPI in India: A Product-Led Growth Analysis
 
 ## Overview
-This project examines the rise of the Unified Payments Interface (UPI) as a case of product-led growth in India's fintech ecosystem. Instead of focusing only on features, the analysis looks at how design choices, ecosystem dynamics, and policy alignment enabled large-scale adoption.
+This project analyzes the rise of the Unified Payments Interface (UPI) as a case of product-led growth in India’s fintech ecosystem. It combines qualitative reasoning with a lightweight dataset to understand how adoption scaled over time.
 
 ## Core Question
-What made UPI scale from a payments infrastructure to a default mode of transaction for millions of users?
+What factors enabled UPI to transition from a payments infrastructure to a default transaction method at national scale?
 
-## Key Drivers of Growth
+## Data Snapshot
 
-### 1. Frictionless Transaction Design
-UPI removed traditional barriers in digital payments by abstracting away bank details into simple identifiers such as QR codes and mobile numbers.
+A simplified dataset of UPI transactions (2020–2024) is used to observe growth patterns.
 
-### 2. Zero-Marginal-Cost Model
-The absence of transaction fees significantly lowered resistance to trial and repeat usage, accelerating network effects.
+![UPI Transaction Growth](visuals/upi-growth.png)
 
-### 3. Competitive Distribution Layer
-Third-party applications (e.g., Google Pay, PhonePe, Paytm) competed on top of the same infrastructure, improving user experience and driving adoption through incentives.
+## Key Observations
 
-### 4. Institutional Backbone
-The role of NPCI ensured interoperability, reliability, and trust—critical for financial products at scale.
+1. Exponential Growth Pattern  
+UPI transactions increased from approximately 1.3 billion (Jan 2020) to 14.4 billion (Jul 2024), indicating strong network effects.
 
-## Insight
-UPI’s success is not just a story of technology, but of coordination:
-- Public infrastructure
-- Private competition
+2. Post-2021 Acceleration  
+A visible increase in growth rate after 2021 suggests a tipping point driven by increased trust, merchant adoption, and ecosystem maturity.
+
+3. Rising Usage Intensity  
+The consistent upward trend reflects not just user growth, but higher transaction frequency per user.
+
+## Analytical Interpretation
+
+The data aligns with a network-driven growth model:
+- Early adoption phase (pre-2021)
+- Rapid acceleration (2021–2023)
+- High-frequency usage at scale (2023 onwards)
+
+UPI’s success can be understood as the outcome of coordination between:
+- Public infrastructure (NPCI)
+- Private distribution (apps like Google Pay, PhonePe, Paytm)
 - User-centric design
 
-Together, these created a system where adoption became inevitable rather than forced.
-
 ## Implications
-- Fintech growth in India is increasingly infrastructure-driven
-- Distribution and UX matter more than core technology alone
-- Similar models could be replicated in lending, insurance, and personal finance
+
+- Fintech growth in India is increasingly driven by infrastructure layers
+- Distribution and user experience play a larger role than core technology alone
+- Similar models can extend to adjacent sectors like lending and insurance
 
 ## Limitations
-This is a high-level qualitative analysis based on secondary research. It does not include primary datasets or transaction-level analysis.
 
-## Future Work
-- Quantitative analysis of UPI transaction growth
-- User segmentation across geographies
-- Comparative study with global payment systems
-
-## About
-Prachi Singh  
-Interested in fintech, data analysis, and product strategy
+This is a simplified analysis using aggregated data. It does not include granular transaction-level or user-level datasets.
